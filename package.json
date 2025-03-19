@@ -6,6 +6,7 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
+    "ssl": "npm run cert & npm start",
     "cert": "mkdir -p ./tls & mkcert -cert-file ./tls/localhost-cert.pem -key-file ./tls/localhost-key.pem -ecdsa localhost 127.0.0.1 ::1"
   },
   "author": "RDL",

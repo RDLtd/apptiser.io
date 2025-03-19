@@ -1,5 +1,6 @@
 export default function () {
-    const api = 'https://api.restaurantcollective.io';
+    // const api = 'https://api.restaurantcollective.io';
+    const api = 'https://localhost:4000';
     const btnSubmit = document.getElementById('btnSubmit')
     console.log(`API ${api}`);
     // grab form
