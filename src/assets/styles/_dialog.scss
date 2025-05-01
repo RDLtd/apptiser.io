@@ -1,0 +1,25 @@
+@use 'variables' as *;
+
+dialog {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+.dialog-container {
+  display:grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  place-items: center ;
+  p {
+    font-size: $fs-small;
+  }
+  div {
+    text-align: center;
+  }
+}
